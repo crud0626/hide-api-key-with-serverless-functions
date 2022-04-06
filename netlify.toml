@@ -12,3 +12,9 @@ from = "/youtube/v3/*"
 to = "/.netlify/functions/youtube/:splat"
 status = 200
 force = true
+
+[[redirects]]
+from = "content/youtube/v3/*"
+to = "/.netlify/functions/content-youtube/:splat"
+status = 200
+force = true
